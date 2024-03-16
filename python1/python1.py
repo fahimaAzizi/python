@@ -78,6 +78,7 @@ def gameLoop():
                     y1_change = snake_block
                     x1_change = 0
 
+        
         if x1 >= width or x1 < 0 or y1 >= height or y1 < 0:
             game_close = True
         x1 += x1_change
