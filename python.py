@@ -105,6 +105,7 @@ def gameLoop():
             foody = round(random.randrange(0, height - snake_size) / 10.0) * 10.0
             snake_length += 1
 
+        
         clock.tick(snake_speed)
 
     pygame.quit()
