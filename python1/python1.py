@@ -105,7 +105,6 @@ def gameLoop():
             length_of_snake += 1
 
         clock.tick(snake_speed)
-
     pygame.quit()
     quit()
 
